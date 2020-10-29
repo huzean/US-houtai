@@ -1,0 +1,107 @@
+{
+  "id": "1422907",
+  "name": "后台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "996206",
+      "name": "404",
+      "font_class": "404",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1115086",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "1203918",
+      "name": "welcome",
+      "font_class": "welcome",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "2166579",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "2170602",
+      "name": "商品-1",
+      "font_class": "shangpin-",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "2569862",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "4553738",
+      "name": "图片 copy",
+      "font_class": "tupiancopy",
+      "unicode": "e7de",
+      "unicode_decimal": 59358
+    },
+    {
+      "icon_id": "4553744",
+      "name": "右对齐 copy",
+      "font_class": "youduiqicopy",
+      "unicode": "e7e1",
+      "unicode_decimal": 59361
+    },
+    {
+      "icon_id": "5147498",
+      "name": "退出",
+      "font_class": "app_icons--",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "5434072",
+      "name": "菜单管理",
+      "font_class": "caidanguanli",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "7163178",
+      "name": "x_禁止",
+      "font_class": "x_jinzhi",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "7898838",
+      "name": "用户中心-首页",
+      "font_class": "yonghuzhongxin-shouye",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "7898839",
+      "name": "用户中心-帮助中心",
+      "font_class": "yonghuzhongxin-bangzhuzhongxin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7978111",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}
