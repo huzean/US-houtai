@@ -1,0 +1,18 @@
+#comLayout{
+  height: 100%;
+  //padding-left:$sliderNavW ;
+  display: flex;
+  #comLayout_L{
+    background-color: $mainColor;
+    position: relative;
+    z-index: 12;
+    //position: fixed;
+    //left:0;
+    //top:0;
+    //bottom:0;
+    //z-index: 100;
+  }
+  #comLayout_R{
+    width: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+
+table{
+}
+.el-submenu__title{
+  font-size: 22px;
+}
+.el-submenu .el-menu-item{
+  font-size: 18px;
+}
+.el-table th,.el-table tr,.el-breadcrumb,.el-table td, .el-table th.is-leaf{
+  font-size: 20px;
+}
+.cell img{
+  height: 60px;
+}
+.el-dialog__wrapper img{
+  display: block;
+  height: 100px;
+}
+
+//原生input样式
+.YS_input{
+  display: inline-block;
+  height:0.533rem;
+  line-height:0.533rem;
+  -webkit-border-radius:0.053333rem;
+  -moz-border-radius:0.053333rem;
+  border-radius:0.053333rem;
+  border:0.013333rem solid #dcdfe6;
+  color: #606266;
+  padding: 0 0.2rem;
+  width: 200px;
+}
+
+//预警列表中的值
+.dengderSpan{
+  color: red;
+}
+
+

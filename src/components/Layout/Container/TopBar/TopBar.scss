@@ -1,0 +1,48 @@
+#Layout_TopBar{
+  height: 46px;
+  line-height: 46px;
+  background-color: #fff;
+  padding: 0 $commonP;
+  *{
+    font-size: $commonFontSize;
+  }
+
+  //面包屑
+  .breadcrumb_Box{
+    padding-left:54px;
+    .center{
+      .el-breadcrumb__item{
+        height: 46px;
+        line-height: 46px;
+      }
+    }
+  }
+
+  .backMalls{
+    padding: 0 $commonP;
+    margin-left: 20px;
+    color: $themeFontColor;
+    *{
+      color: $themeFontColor;
+    }
+  }
+//  用户
+  .userinfo{
+    *{
+      color: $themeFontColor;
+    }
+  }
+
+  .home{
+    padding: 0 $commonP;
+    font-size: 22px;
+    color: $themeFontColor;
+  }
+
+
+
+  .timer{
+    color:#fe3833;
+    padding: 0 $commonP;
+  }
+}

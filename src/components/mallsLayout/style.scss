@@ -1,0 +1,18 @@
+
+#mallsLayout {
+  .mallsLayout_top{
+    min-width: 1300px;
+    padding: $commonP;
+    border-bottom: $commonP solid #eee;
+    background-color: $mainColor;
+    line-height: 40px;
+    .logo{
+      display: inline-block;
+      height:30px;
+    }
+    *{
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+//index  comContainer_top  comContainer_Main(App_Main)
+#comContainer{
+  height: 100%;
+  $topBarH:46px;
+  //min-width: 1500px;
+  overflow: auto;
+}
+//右边顶部
+#comContainer_top{
+  position: fixed;
+  left: $sliderNavW;
+  right: 0;
+  top:0;
+  z-index: 10;
+  background-color: #fff;
+  border-bottom: $commonP solid #eee;
+  &.sliderCollapseTopBar{
+    left: 80px;
+  }
+}
+
+#comContainer_Main{
+  height: 100%;
+  padding-top:63px;
+  #noAuth{//无权限
+    padding: $commonP;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    .noAuth_main{
+      position: absolute;
+      .iconfont{
+        color:#E6A23C;
+        font-size: 140px;
+      }
+      p{
+        color:#E6A23C;
+        padding: $commonP;
+      }
+      .notice{
+        font-size: $commonFontSize;
+      }
+    }
+
+  }
+  #App_Main{
+    padding: $commonP;
+    height: 100%;
+
+    //listMain 包括顶部筛选和表格
+    .listMain{
+      height: 100%;
+    }
+    //列表
+    .listTable{
+      width: 100%;
+      .el-table th.gutter{
+        display: table-cell!important;
+      }
+      .el-table__body, .el-table__footer, .el-table__header{
+        width: 100% !important;
+      }
+      .el-table__body-wrapper{
+        width: 100%;
+        max-height: 960px;
+        overflow: auto;
+      }
+    }
+    //  列表分页
+    .paginationBox{
+      padding-top: $commonP;
+    }
+  }
+}
+
+
